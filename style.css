@@ -1,0 +1,132 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial;
+}
+
+body{
+  background:#f4f4f4;
+  color:#333;
+}
+
+.logo{
+    font-size: 25px;
+}
+
+.logo:hover{
+    color: #00adb5;
+    transform: scale(1.2);
+}
+
+.profile{
+  width:150px;
+  height: 150px;
+  border-radius:50%;
+  object-fit: cover;
+}
+
+/* NAV */
+header{
+  background:#333;
+  padding:15px;
+  position:sticky;
+  top:0;
+}
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+nav ul{
+  display:flex;
+  list-style:none;
+  gap:15px;
+}
+
+a{
+  color:white;
+  text-decoration:none;
+}
+
+a:hover{
+  color:#00adb5;
+}
+
+/* SECTIONS */
+section{
+  padding:60px 20px;
+  max-width:1000px;
+  margin:auto;
+}
+
+/* HOME */
+.home{
+  text-align:center;
+  background:#00adb5;
+  color:white;
+  padding:60px 20px;
+}
+
+/* BUTTON */
+.btn{
+  display:inline-block;
+  margin-top:15px;
+  padding:8px 15px;
+  background:white;
+  color:#00adb5;
+  border-radius:5px;
+}
+
+.btn:hover{
+    background: #00adb5;
+    color: white;
+}
+
+/* PROJECTS */
+.projects{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:15px;
+}
+
+.project-card,
+.about{
+  background:white;
+  padding:15px;
+  border-radius:8px;
+}
+
+/* SKILLS */
+.skills {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.skills li {
+  margin-bottom: 10px;
+}
+
+/* SOCIAL */
+.socials{
+  text-align:center;
+}
+
+.socials a{
+  background:#333;
+  padding:8px 12px;
+  margin:5px;
+  display:inline-block;
+  border-radius:5px;
+  font-size:20px;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:15px;
+  background:#333;
+  color:white;
+}
